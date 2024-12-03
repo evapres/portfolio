@@ -3,67 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>UX Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="container">
-      <h1>Hello, I'm [Your Name]</h1>
-      <p>UX Designer passionate about creating user-centric experiences.</p>
-      <a href="#projects" class="btn">View My Work</a>
-    </div>
-  </header>
-
-  <nav class="navbar">
-    <div class="container">
+  <!-- Navigation -->
+  <header class="navbar">
+    <nav>
       <ul>
+        <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#resume">Resume</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-    </div>
-  </nav>
+    </nav>
+  </header>
 
-  <section id="about" class="about">
+  <!-- Hero Section -->
+  <section id="home" class="hero">
     <div class="container">
-      <h2>About Me</h2>
-      <p>
-        I'm a UX designer with expertise in research, wireframes, and prototyping. My goal is to create intuitive designs that align user needs with business goals.
-      </p>
+      <h1>Hello!</h1>
+      <p>I’m <span class="highlight">Jenny</span>, Product Designer</p>
+      <p>Ensuring exceptional designs that drive success.</p>
+      <a href="#portfolio" class="btn">View My Work</a>
     </div>
   </section>
 
-  <section id="projects" class="projects">
-    <div class="container">
-      <h2>My Projects</h2>
-      <div class="project-grid">
-        <div class="project-card">
-          <img src="project1.jpg" alt="Project 1">
-          <h3>Project Title 1</h3>
-          <p>A brief description of the project.</p>
-        </div>
-        <div class="project-card">
-          <img src="project2.jpg" alt="Project 2">
-          <h3>Project Title 2</h3>
-          <p>A brief description of the project.</p>
-        </div>
-        <div class="project-card">
-          <img src="project3.jpg" alt="Project 3">
-          <h3>Project Title 3</h3>
-          <p>A brief description of the project.</p>
-        </div>
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>My Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>UI/UX Design</h3>
+        <p>Designing intuitive and engaging experiences.</p>
+      </div>
+      <div class="card">
+        <h3>Web Design</h3>
+        <p>Creating responsive and visually appealing websites.</p>
+      </div>
+      <div class="card">
+        <h3>Landing Pages</h3>
+        <p>Optimized pages for conversions and branding.</p>
       </div>
     </div>
   </section>
 
-  <footer id="contact" class="contact">
-    <div class="container">
-      <h2>Contact Me</h2>
-      <p>Email: yourname@example.com</p>
-      <p>Phone: +123 456 7890</p>
-      <p>LinkedIn: <a href="#">linkedin.com/in/yourname</a></p>
-    </div>
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <h2>Let’s Connect</h2>
+    <form action="#">
+      <input type="email" placeholder="Enter Email Address">
+      <button type="submit">Send</button>
+    </form>
+    <p>&copy; 2023 Jenny. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
+
