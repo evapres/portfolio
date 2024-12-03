@@ -3,62 +3,129 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UX Portfolio</title>
+  <title>Portfolio Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Navigation -->
-  <header class="navbar">
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
+  <!-- Header Section -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">🎨 3CREA</div>
+      <ul class="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Service</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <button class="btn">Hire Me</button>
     </nav>
   </header>
 
   <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="container">
-      <h1>Hello!</h1>
-      <p>I’m <span class="highlight">Jenny</span>, Product Designer</p>
-      <p>Ensuring exceptional designs that drive success.</p>
-      <a href="#portfolio" class="btn">View My Work</a>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>I'm <span>Jenny</span>, Product Designer</h1>
+      <p>Expert in product design, web & mobile apps, ensuring great results.</p>
+      <button class="btn">Portfolio</button>
+      <button class="btn secondary">Hire Me</button>
+    </div>
+    <div class="hero-image">
+      <img src="jenny-image.jpg" alt="Jenny">
     </div>
   </section>
 
   <!-- Services Section -->
+
   <section id="services" class="services">
-    <h2>My Services</h2>
-    <div class="service-cards">
-      <div class="card">
+    <h2>My <span>Services</span></h2>
+    <p class="services-description">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus nunc, posuere in justo vulputate, bibendum sodales.
+    </p>
+    <div class="services-container">
+      <div class="service-card">
+        <div class="service-image">
+          <img src="ui-ux-design.jpg" alt="UI/UX Design">
+        </div>
         <h3>UI/UX Design</h3>
-        <p>Designing intuitive and engaging experiences.</p>
+        <div class="service-arrow">
+          <a href="#"><img src="arrow-icon.png" alt="Arrow"></a>
+        </div>
       </div>
-      <div class="card">
+      <div class="service-card">
+        <div class="service-image">
+          <img src="web-design.jpg" alt="Web Design">
+        </div>
         <h3>Web Design</h3>
-        <p>Creating responsive and visually appealing websites.</p>
+        <div class="service-arrow">
+          <a href="#"><img src="arrow-icon.png" alt="Arrow"></a>
+        </div>
       </div>
-      <div class="card">
-        <h3>Landing Pages</h3>
-        <p>Optimized pages for conversions and branding.</p>
+      <div class="service-card">
+        <div class="service-image">
+          <img src="landing-page.jpg" alt="Landing Page">
+        </div>
+        <h3>Landing Page</h3>
+        <div class="service-arrow">
+          <a href="#"><img src="arrow-icon.png" alt="Arrow"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience">
+    <h2>My Work Experience</h2>
+    <div class="timeline">
+      <div class="experience-item">
+        <h3>Cognizant, Mumbai</h3>
+        <p>Sep 2017 - May 2020</p>
+      </div>
+      <div class="experience-item">
+        <h3>Supee Pvt Limited</h3>
+        <p>Sep 2020 - July 2023</p>
+      </div>
+      <div class="experience-item">
+        <h3>Clinestox, Mumbai</h3>
+        <p>Sep 2023 - Present</p>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <h2>Let’s have a look at my Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">Project 1</div>
+      <div class="portfolio-item">Project 2</div>
+      <div class="portfolio-item">Project 3</div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <h2>Testimonials That Speak to My Results</h2>
+    <div class="testimonials-container">
+      <div class="testimonial">
+        <p>"Amazing work!" - Client A</p>
+      </div>
+      <div class="testimonial">
+        <p>"Highly recommend Jenny." - Client B</p>
+      </div>
+      <div class="testimonial">
+        <p>"Exceptional results." - Client C</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
   <footer id="contact" class="footer">
-    <h2>Let’s Connect</h2>
-    <form action="#">
-      <input type="email" placeholder="Enter Email Address">
-      <button type="submit">Send</button>
-    </form>
-    <p>&copy; 2023 Jenny. All Rights Reserved.</p>
+    <h2>Have an Awesome Project Idea? Let’s Discuss!</h2>
+    <button class="btn">Contact Me</button>
   </footer>
 </body>
 </html>
+
+
 
