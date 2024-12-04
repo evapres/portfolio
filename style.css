@@ -16,11 +16,18 @@ body {
 .navbar {
   width: 100%;
   display: flex;
+  border-radius:0px;
   justify-content: space-between;
   align-items: center;
   padding: 10px 50px;
   background-color: #1f2a1a; 
   margin-bottom:0px;
+}
+
+.logo {
+ height:57px;
+  fill-color: red;
+
 }
 
 .navbar a {
@@ -40,8 +47,7 @@ body {
 .navbar-logo {
   display: flex;
   align-items: center;
-  font-weight: bold;
-  font-size: 1.2rem;
+  width:100px;
 }
 
 /* Hero Section Styles */
