@@ -27,12 +27,14 @@ body {
   text-decoration: none;
   color: #fff;
   margin: 0 15px;
-  font-size: 1rem;
+  font-size: 14px;
+  font-weight:300;
+  letter-spacing:0.8px;
+  text-transform: uppercase;
 }
 
 .navbar a.active {
-  color: #f57328;
-  font-weight: bold;
+  text-decoration: underline;
 }
 
 .navbar-logo {
@@ -299,8 +301,8 @@ h2 {
 }
 
 
-.project-overview{
-  padding: 50px 0px 50px 20px;
+.project-section {
+padding: 50px 0px 50px 20px;
 border-style: solid;
 border-width: 0px 0px 0px 1px;
 }
@@ -310,14 +312,17 @@ border-width: 0px 0px 0px 1px;
   font-weight: 400;
   margin:40px 0px 20px 0px;
 }
+
 p {
   line-height: 27px;
   font-size:18px;
   font-weight:200;
   margin-bottom: 50px;
 }
+.overview-images{
+  padding:0px 80px;
+}
 
 .overview-img{
   width:100%;
-  padding: 0px 50px 0px 50px;
 }
