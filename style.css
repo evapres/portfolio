@@ -23,7 +23,7 @@ h1 {
 
 h3 {
   font-family: "Noto Serif Display", serif;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 300;
   letter-spacing: 0.5px;
   margin: 0 0 20px 0;
@@ -37,11 +37,11 @@ h3 {
 }
 
 h2 {
-  font-size: 17px;
+  font-family: "Noto Serif Display", serif;
+  font-size: 40px;
   font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 0.3px;
-  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+  margin: 0 0 40px 0;
 }
 
 .contents-list {
@@ -116,7 +116,7 @@ p {
 }
 
 .logo{
-  height:60px;
+  height:55px;
 }
 
 /* Hero Section Styles */
