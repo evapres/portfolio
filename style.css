@@ -22,9 +22,8 @@ h1 {
 }
 
 h3 {
-  font-family: "Noto Serif Display", serif;
-  font-size: 25px;
-  font-weight: 300;
+  font-size: 22px;
+  font-weight: 200;
   letter-spacing: 0.5px;
   margin: 0 0 20px 0;
 }
@@ -143,7 +142,7 @@ p {
 .hero-project {
   padding: 50px 20px;
   background-image: url('sifnos-hero-image.jpeg');
-  height:80vh;
+  height: 70vh;
     background-size: cover; /* Ensures the image covers the entire section */
     background-position: center; /* Centers the image on all screens */
     background-repeat: no-repeat; /* Prevents repetition */
@@ -182,14 +181,14 @@ p {
 /* Services Section */
 .services {
   padding: 70px 50px;
-  background-color: #1f2a1a; 
-  color: white;
+  background-color: #1f2a1a;
+  color: #f9f7f4;
   text-align: center;
 }
 
 .services-description {
   max-width: 600px;
-  margin: 0 auto 2rem auto;
+  margin: 20px auto 40px auto;
 }
 
 .services-container {
@@ -201,7 +200,7 @@ p {
 .service-card {
   position: relative;
   width: 30%;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgb(255 255 255 / 10%);
   border-radius: 16px;
   padding: 1rem;
   overflow: hidden;
@@ -217,11 +216,12 @@ p {
 .service-image img {
   width: 100%;
   border-radius: 12px;
+  margin-bottom: 20px;
 }
 
 .service-card h5 {
   margin: 1rem 0;
-  color: white;
+  color: #090909;
 }
 
 .service-arrow {
@@ -242,7 +242,7 @@ p {
 }
 
 .service-arrow a:hover {
-  background: orange;
+  background: #5c6457;
 }
 
 .service-arrow img {
