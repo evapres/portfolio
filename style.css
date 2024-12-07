@@ -15,9 +15,20 @@ body {
     border-radius: 0px;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 20px 0px;
     margin-bottom: 0px;
     min-height: 50px;
+}
+
+.nav-container{
+  display: flex;
+  border-radius:0px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  background-color: #1f2a1a; 
+  margin-bottom:0px;
+  width: 1170px;
 }
 
 
@@ -297,14 +308,7 @@ p {
     background-color: #f2ede7;
   }
   
-  .footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+
   
   .footer-bottom {
     display: flex;
