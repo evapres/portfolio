@@ -15,9 +15,7 @@ body {
     border-radius: 0px;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0px;
     margin-bottom: 0px;
-    min-height: 50px;
 }
 
 
@@ -312,6 +310,8 @@ p {
   
   .footer {
     background-color: #f2ede7;
+    align-items:center;
+    padding: 20px 0px;
   }
   
   .footer-bottom {
