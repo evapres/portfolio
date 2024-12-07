@@ -20,17 +20,6 @@ body {
     min-height: 50px;
 }
 
-.nav-container{
-  display: flex;
-  border-radius:0px;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0px;
-  background-color: #1f2a1a; 
-  margin-bottom:0px;
-  width: 1170px;
-}
-
 
 /* Fonts */
 
@@ -40,13 +29,6 @@ h1 {
   font-weight: 300;
   letter-spacing: 0.5px;
   margin: 0 0px 10px 0;
-}
-
-h3 {
-  font-size: 22px;
-  font-weight: 200;
-  letter-spacing: 0.5px;
-  margin: 0 0 20px 0;
 }
 
 .header hr {
@@ -62,6 +44,20 @@ h2 {
   font-weight: 300;
   letter-spacing: 0.5px;
   margin: 0 0 40px 0;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  margin: 0 0 20px 0;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 0.3px;
+  margin-bottom: 20px;
 }
 
 .contents-list {
@@ -101,16 +97,30 @@ p {
   font-size:18px;
   font-weight:200;
   margin-bottom: 50px;
+  letter-spacing: 0.3px;
 }
 
 /* Navbar Styles */
+
+.nav-container{
+  display: flex;
+  border-radius:0px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  background-color: #1f2a1a; 
+  margin-bottom:0px;
+  width: 1170px;
+}
+
+
 .navbar {
   width: 100%;
   display: flex;
   border-radius:0px;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 50px;
+  padding: 0px 50px;
   background-color: #1f2a1a; 
   margin-bottom:0px;
 }
@@ -140,6 +150,7 @@ p {
 }
 
 /* Hero Section Styles */
+
 .hero {
   padding: 50px 20px;
   background-image: url('Cartoon Girl at Desk2.png');
@@ -199,26 +210,26 @@ p {
 
 
 
-/* Services Section */
-.services {
-  padding: 70px 50px;
+/* Projects Section */
+.projects {
+  padding: 80px 50px;
   background-color: #1f2a1a;
   color: #f9f7f4;
   text-align: center;
 }
 
-.services-description {
+.projects-description {
   max-width: 600px;
   margin: 20px auto 40px auto;
 }
 
-.services-container {
+.projects-container {
   display: flex;
   justify-content: space-around;
   gap: 2rem;
 }
 
-.service-card {
+.project-card {
   position: relative;
   width: 30%;
   background: rgb(255 255 255 / 10%);
@@ -229,29 +240,29 @@ p {
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.service-card:hover {
+.project-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-.service-image img {
+.project-image img {
   width: 100%;
   border-radius: 12px;
   margin-bottom: 20px;
 }
 
-.service-card h5 {
+.project-card h5 {
   margin: 1rem 0;
   color: #090909;
 }
 
-.service-arrow {
+.project-arrow {
   position: absolute;
   bottom: 20px;
   right: 20px;
 }
 
-.service-arrow a {
+.project-arrow a {
   background: #222;
   border-radius: 50%;
   display: flex;
@@ -262,43 +273,38 @@ p {
   transition: background 0.3s ease;
 }
 
-.service-arrow a:hover {
+.project-arrow a:hover {
   background: #5c6457;
 }
 
-.service-arrow img {
+.project-arrow img {
   width: 24px;
   height: 24px;
 }
 
 
 /* Experience Section */
-.experience {
-  padding: 2rem;
-}
-.timeline {
-  margin-top: 1rem;
-}
-.experience-item {
-  margin-bottom: 1rem;
+
+.experience-container {
+  display: flex;
+  justify-content: space-between; /* Center the columns horizontally */
+  align-items: flex-start; /* Align the columns to the top */
+  gap: 50px; /* Space between the columns */
+  flex-wrap: nowrap; /* Ensures the timelines stay in a single row */
+  padding: 80px 0px 30px 0px;
+  margin: 0 auto;
+  width: 1170px;
 }
 
-/* Portfolio Section */
-.portfolio {
-  padding: 2rem;
-  background: #f7f7f7;
+.timeline {
+  flex: 1; /* Makes both columns take equal space */
+  max-width: 500px; /* Optional: Prevent columns from becoming too wide */
 }
-.portfolio-grid {
-  display: flex;
-  gap: 1rem;
+
+.experience-item {
+  margin-bottom: 50px; /* Space between individual experience/education items */
 }
-.portfolio-item {
-  flex: 1;
-  background: white;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+
 
 
 
@@ -307,8 +313,6 @@ p {
   .footer {
     background-color: #f2ede7;
   }
-  
-
   
   .footer-bottom {
     display: flex;
@@ -335,6 +339,10 @@ p {
   
 
 
+
+
+
+
 /*Project page*/
 
 .hero-img{
@@ -358,15 +366,11 @@ p {
   text-align: left;
 }
 
-
-
-
 .project-section {
 padding: 50px 0px 50px 20px;
 border-style: solid;
 border-width: 0px 0px 0px 1px;
 }
-
 
 .overview-images{
   padding:0px 80px;
