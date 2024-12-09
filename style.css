@@ -48,7 +48,7 @@ h3 {
   font-size: 22px;
   font-weight: 200;
   letter-spacing: 0.5px;
-  margin: 0 0 20px 0;
+  margin: 0 0px 30px 0;
 }
 
 h4 {
@@ -96,6 +96,17 @@ p {
   font-weight:200;
   margin-bottom: 50px;
   letter-spacing: 0.3px;
+}
+
+li{
+  line-height: 27px;
+  font-size:18px;
+  font-weight:200;
+  letter-spacing: 0.3px;
+}
+
+.portfolio-short-description{
+  margin-bottom:20px;
 }
 
 /* Navbar Styles */
@@ -165,7 +176,7 @@ p {
 
 
 .scroll-icon{
-  height:100px;
+  height:80px;
 }
 
 
