@@ -390,6 +390,34 @@ border-width: 0px 0px 0px 1px;
   width:100%;
 }
 
+    .carousel-container {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .carousel-track {
+      display: flex;
+      animation: scrollLeft 15s linear infinite;
+    }
+
+    .carousel-track img {
+      width: 550px;
+      height: auto;
+      margin-right: 10px;
+      border-radius: 10px;
+    }
+
+    @keyframes scrollLeft {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+
 @media only screen and (max-width: 500px) {
   .overview-images{
     padding:0px 10px;
