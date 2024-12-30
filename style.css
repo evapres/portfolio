@@ -144,6 +144,16 @@ li{
   text-transform: uppercase;
 }
 
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c3dbb4; /* Slightly lighter color for hover effect */
+  text-decoration: none;
+}
+
 .navbar a.active {
   text-decoration: underline;
 }
@@ -182,7 +192,7 @@ li{
 
 .hero-project {
   padding: 50px 20px;
-  background-image: url('sifnos-hero-image.jpeg');
+  background-image: url('sifnos/hero.png');
   height: 70vh;
     background-size: cover; /* Ensures the image covers the entire section */
     background-position: center; /* Centers the image on all screens */
@@ -292,6 +302,7 @@ li{
 }
 
 
+
 /* Experience Section */
 
 .experience-container {
@@ -394,6 +405,7 @@ border-width: 0px 0px 0px 1px;
       width: 100%;
       overflow: hidden;
       position: relative;
+      margin-bottom: 20px;
     }
 
     .carousel-track {
@@ -402,12 +414,17 @@ border-width: 0px 0px 0px 1px;
     }
 
     .carousel-track img {
-      width: 550px;
+      width: 400px;
       height: auto;
       margin-right: 10px;
       border-radius: 10px;
     }
 
+    #row1{
+      margin-bottom:25px;
+    }
+    
+    
     @keyframes scrollLeft {
       0% {
         transform: translateX(0);

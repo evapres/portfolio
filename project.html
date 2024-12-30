@@ -21,8 +21,6 @@
      <div class="navbar-links">
        <a href="#home" class="active">Home</a>
        <a href="#about">About</a>
-       <a href="#services">Service</a>
-       <a href="#resume">Resume</a>
        <a href="project.html">Projects</a>
        <a href="#contact">Contact</a>
      </div>
@@ -47,14 +45,13 @@
                 <h3>Contents</h3>
                 <hr>
               <ul class="contents-list">
-                <li><span class="number">01</span> Set the Foundation</li>
-                <li><span class="number">02</span> Studio McGee Archive</li>
-                <li><span class="number">03</span> Ten-Year Timeline</li>
-                <li><span class="number">04</span> The Anniversary Collection</li>
-                <li><span class="number">05</span> Syd and Shea Revisit the Past</li>
-                <li><span class="number">06</span> Studio McGee Portfolio</li>
-                <li><span class="number">07</span> Anniversary Top Tens</li>
-                <li><span class="number">08</span> Join Our Community</li>
+                <li><span class="number">01</span><a href="#overview">Overview</a></li>
+                <li><span class="number">02</span><a href="#empathize">Research</a></li>
+                <li><span class="number">03</span><a href="#define">Problem Definition</a></li>
+                <li><span class="number">04</span><a href="#ideate">Ideation</a></li>
+                <li><span class="number">05</span><a href="#wireframes">Wireframes and UI Guidelines</a></li>
+                <li><span class="number">06</span><a href="#prototypes">Prototypes</a></li>
+                <li><span class="number">07</span><a href="#testing">Testing & Next Steps</a></li>
               </ul>
             </div>
         </div>
@@ -65,7 +62,7 @@
       <div class="container">
 <div class="project-section">
   <p class="section-number">01</p>
-  <h3>Overview (Problem Statement)</h3>
+  <h3 id="overview">Overview (Problem Statement)</h3>
   <h4>Client Objective</h4>
     <p class="portfolio-short-description">The client wanted to modernize their website to:
       <ul>
@@ -107,7 +104,7 @@
  <div class="container">
   <div class="project-section">
     <p class="section-number">02</p>
-    <h3>Empathize (Research Phase)</h3>
+    <h3 id="empathize">Empathize (Research Phase)</h3>
     <h4>Stakeholder Insights</h4>
       <p class="portfolio-short-description">Through discussions with the hotel owner, I uncovered key priorities:
         <ul>
@@ -144,7 +141,7 @@
 <div class="container">
   <div class="project-section">
     <p class="section-number">03</p>
-    <h3> Define (Problem Framing)</h3>
+    <h3 id="define">Define (Problem Framing)</h3>
     <h4>Key Insights</h4>
     <p class="portfolio-short-description">
         <ul>
@@ -177,7 +174,7 @@
 <div class="container">
   <div class="project-section">
     <p class="section-number">04</p>
-    <h3>Ideate (Sitemap and Page Structures)</h3>
+    <h3 id="ideate">Ideate (Sitemap and Page Structures)</h3>
     <h4>Sitemap Development</h4>
       <p class="portfolio-short-description">To address the user journey & the above flows, I developed the following sitemap:
     </p>
@@ -191,20 +188,21 @@
 
 
 
-<!-- Prototype (Wireframes and Visual Concepts) -->
+<!-- Wireframes and Visual Concepts -->
 <div class="container">
   <div class="project-section">
     <p class="section-number">05</p>
-    <h3>Wireframes and UI Guidelines</h3>
+    <h3 id="wireframes">Wireframes and UI Guidelines</h3>
     <h4>Wireframes</h4>
     <p class="portfolio-short-description">I created wireframes to visualize the new layout and prioritize key information on each page.
     </p>
     <h4>Design Approach</h4>
     <p class="portfolio-short-description">
       <ul>
-      <li>A minimalistic style inspired by Cycladic architecture (white and blue tones).</li>
-      <li>Use of full-width imagery to evoke the island's charm.</li>
-      <li>Playful typography - it was my client's request</li>
+      <li>
+        Warm, Playful Brown Palette: Chosen to create a welcoming and cozy atmosphere.</li>
+      <li>Full-Width Imagery: Used strategically to capture and convey the island’s charm and beauty.</li>
+      <li>Playful Typography: Reflecting the client's request, typography adds a fun and engaging visual character to the design.</li>
     </ul>
   </p>   
 </div> 
@@ -215,47 +213,79 @@
 </div>
 </div>
 
-<!-- Prototype (Wireframes and Visual Concepts) -->
+<!-- Prototype -->
 <div class="container">
   <div class="project-section">
     <p class="section-number">06</p>
-    <h3>Prototypes</h3> 
+    <h3 id="prototypes">Prototypes</h3> 
 </div> 
 </div> 
 
-  <div class="carousel-container">
-    <div class="carousel-track" id="carouselTrack">
-      <img src="sifnos/image 1.png" alt="Image 1">
-      <img src="sifnos/image 1.png" alt="Image 2">
-      <img src="sifnos/image 1.png" alt="Image 3">
-      <img src="sifnos/image 1.png" alt="Image 4">
-      <img src="sifnos/image 1.png" alt="Image 5">
-      <img src="sifnos/image 1.png" alt="Image 1">
-      <img src="sifnos/image 1.png" alt="Image 2">
-      <img src="sifnos/image 1.png" alt="Image 3">
-      <img src="sifnos/image 1.png" alt="Image 4">
-      <img src="sifnos/image 1.png" alt="Image 5">
-    </div>
+<div class="overview-images">
+  <div id="row1" class="row">
+    <div class="col-sm-4"><img src="sifnos/location.jpg" class="overview-img" alt="Project-overview-Image"></div>
+    <div class="col-sm-4"><img src="sifnos/home.jpg" class="overview-img" alt="Project-overview-Image"></div>
+    <div class="col-sm-4"><img src="sifnos/spa.jpg" class="overview-img" alt="Project-overview-Image"></div>
   </div>
+  <div id="row2" class="row">
+    <div class="col-sm-4"><img src="sifnos/rooms.jpg" class="overview-img" alt="Project-overview-Image"></div>
+    <div class="col-sm-4"><img src="sifnos/room.jpg" class="overview-img" alt="Project-overview-Image"></div>
+    <div class="col-sm-4"><img src="sifnos/hotel.jpg" class="overview-img" alt="Project-overview-Image"></div>
+</div>
+</div>
 
-  <script>
-    const carouselTrack = document.getElementById("carouselTrack");
 
-    // Wait for all images to load before starting the animation
-    const images = carouselTrack.querySelectorAll("img");
-    let imagesLoaded = 0;
 
-    images.forEach((img) => {
-      img.onload = () => {
-        imagesLoaded++;
-        if (imagesLoaded === images.length) {
-          // Once all images are loaded, add animation
-          carouselTrack.style.animation = "scrollLeft 15s linear infinite";
-        }
-      };
-    });
-  </script>
+  <!-- Testing -->
+<div class="container">
+  <div class="project-section">
+    <p class="section-number">07</p>
+    <h3 id="testing">Testing & Next Steps (Feedback and Iterations)</h3>
+    <h4>Client Feedback</h4>
+    <p class="portfolio-short-description">The client appreciated the new sitemap and provided input on specific visual elements, like adding more spa photos and emphasizing local attractions.
+    </p>
+    <h4>User Testing</h4>
+    <p class="portfolio-short-description">Tested the prototype with a small group of users to ensure they could easily navigate the website and find booking options.</p>
+    <h4>Live user Feedback</h4>
+    <p class="portfolio-short-description">The project is very new so we are not able to make any amendments based on data yet. The client and I will be tracking the analytics over the next few months so we know if any changes/additions need to be done.</p>
+</div> 
+</div> 
 
+
+<div class="carousel-container">
+  <div class="carousel-track" id="carouselTrack">
+    <img src="sifnos/hotel.jpg" alt="Image 1">
+    <img src="sifnos/spa.jpg" alt="Image 2">
+    <img src="sifnos/home.jpg" alt="Image 3">
+    <img src="sifnos/rooms.jpg" alt="Image 4">
+    <img src="sifnos/room.jpg" alt="Image 5">
+    <img src="sifnos/location.jpg" alt="Image 6">
+    <img src="sifnos/hotel.jpg" alt="Image 1">
+    <img src="sifnos/spa.jpg" alt="Image 2">
+    <img src="sifnos/home.jpg" alt="Image 3">
+    <img src="sifnos/rooms.jpg" alt="Image 4">
+    <img src="sifnos/room.jpg" alt="Image 5">
+    <img src="sifnos/location.jpg" alt="Image 6">
+  </div>
+</div>
+
+<script>
+  const carouselTrack = document.getElementById("carouselTrack");
+
+  // Wait for all images to load before starting the animation
+  const images = carouselTrack.querySelectorAll("img");
+  let imagesLoaded = 0;
+
+  images.forEach((img) => {
+    img.onload = () => {
+      imagesLoaded++;
+      if (imagesLoaded === images.length) {
+        // Once all images are loaded, add animation
+        carouselTrack.style.animation = "scrollLeft 20s linear infinite";
+      }
+    };
+  });
+</script>
 
 
     <!-- Contact Section -->
