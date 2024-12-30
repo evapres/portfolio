@@ -421,6 +421,9 @@ border-width: 0px 0px 0px 1px;
       margin-bottom:25px;
     }
     
+   .company {
+      margin-bottom:10px;
+    }
     
     @keyframes scrollLeft {
       0% {
