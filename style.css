@@ -154,9 +154,6 @@ a:hover {
   text-decoration: none;
 }
 
-.navbar a.active {
-  text-decoration: underline;
-}
 
 .navbar-logo {
   display: flex;
