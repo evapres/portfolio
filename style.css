@@ -187,10 +187,9 @@ a:hover {
   height:80px;
 }
 
-
 .hero-project {
   padding: 50px 20px;
-  background-image: url('sifnos/hero.png');
+  background-image: url('hero.png');
   height: 70vh;
     background-size: cover; /* Ensures the image covers the entire section */
     background-position: center; /* Centers the image on all screens */
@@ -201,6 +200,7 @@ a:hover {
     text-align: center;
     position: relative;
 }
+
 
 
 
