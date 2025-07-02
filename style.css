@@ -229,7 +229,7 @@ a:hover {
 
 /* Projects Section */
 .projects {
-  padding: 80px 50px;
+  padding: 80px 10%;
   background-color: #1f2a1a;
   color: #f9f7f4;
   text-align: center;
@@ -242,24 +242,23 @@ a:hover {
 
 .projects-container {
     display: flex;
-    justify-content: center;
     gap: 20px;
     flex-direction: row;
-    align-items: center;
-    align-content: space-around;
-    flex-wrap: nowrap;
     margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
 }
+  
 
 .project-card {
   position: relative;
-  width: 30%;
   background: rgb(255 255 255 / 10%);
   border-radius: 16px;
   padding: 1rem;
   overflow: hidden;
   backdrop-filter: blur(10px);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  width:auto;
 }
 
 .project-card:hover {
