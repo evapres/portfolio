@@ -359,7 +359,7 @@ b{
 .audit-columns {
   display: flex;
   gap: 50px;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
