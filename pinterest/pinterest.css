@@ -122,7 +122,7 @@ li{
   justify-content: space-between;
   align-items: center;
   padding: 10px 0px;
-  background-color: #383838; 
+  background-color: #1f2a1a;
   margin-bottom:0px;
   width: 1170px;
 }
@@ -134,7 +134,7 @@ li{
   justify-content: space-between;
   align-items: center;
   padding: 0px 50px;
-  background-color: #383838; 
+  background-color: #1f2a1a;
   margin-bottom:0px;
 }
 }
@@ -281,7 +281,7 @@ a:hover {
   width: 100%;
   display: flex;
   padding: 50px 50px;
-  background-color: #383838; /* Dark grey background */
+  background-color: #1f2a1a; /* Dark green background */
   color: white;
 }
 
